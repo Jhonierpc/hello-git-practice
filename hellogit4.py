@@ -1,0 +1,1 @@
+print("Hello, this is a file new for example for the Gif's course")
