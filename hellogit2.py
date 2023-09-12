@@ -1,1 +1,1 @@
-print("Hello Git, este es otro archivo de python para prueba de Git")
+print("Hello Git, este es otro archivo de python para prueba de Git solo para git")
