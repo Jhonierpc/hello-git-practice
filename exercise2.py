@@ -1,9 +1,14 @@
+"""Module providing a function printing python version."""
 import datetime
 
+
 def obtener_nombre_dia(fecha):
-    nombres_dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
-    nombre_dia = nombres_dias[fecha.weekday()]
-    return nombre_dia
+    """Function printing python version."""
+    dias = ['Lunes', 'Martes', 'Miércoles',
+            'Jueves', 'Viernes', 'Sábado', 'Domingo']
+    nombre_d = dias[fecha.weekday()]
+    return nombre_d
+
 
 # Solicitar al usuario que ingrese la fecha
 anio = int(input("Ingresa el año (formato AAAA): "))
